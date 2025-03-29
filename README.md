@@ -3,18 +3,18 @@
 
 ---
 
-## 🔍 Overview  
+##  Overview  
 This project implements a **Visual Question Answering (VQA)** system using:  
 - **Vision Model**: ResNet50 (pretrained on ImageNet) for image feature extraction  
 - **Text Model**: BERT-base-uncased for question understanding  
 - **Fusion**: Late concatenation + fully connected layers for answer prediction  
 
 **Full repository (models, datasets, outputs)** is available on Google Drive:  
-👉 [Download Full Project Folder](https://drive.google.com/drive/folders/1F0m-6e1kyNcWky9k-zBfJqGwcM9-Xvz5?usp=drive_link)  
+ [Download Full Project Folder](https://drive.google.com/drive/folders/1F0m-6e1kyNcWky9k-zBfJqGwcM9-Xvz5?usp=drive_link)  
 
 ---
 
-## 📂 Project Structure  
+##  Project Structure  
 ```
 ├── models/                  # Pretrained model weights (.pth/.ckpt)
 ├── outputs/                 # Training logs, metrics, and visualizations
@@ -27,7 +27,7 @@ This project implements a **Visual Question Answering (VQA)** system using:
 
 ---
 
-## ⚙️ Implementation Notes  
+## ⚙ Implementation Notes  
 ### Dataset Constraints  
 Due to computational limitations (GPU memory), we used:  
 - **20%** of COCO-VQA v2.0 training data  
