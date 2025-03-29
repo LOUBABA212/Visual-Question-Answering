@@ -1,4 +1,4 @@
-# Visual Question Answering (VQA) Project
+# Visual Question Answering
 
 ## Overview
 This project implements a **Visual Question Answering (VQA)** system that combines computer vision and natural language processing to answer questions about images. The model integrates:
