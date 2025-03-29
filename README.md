@@ -27,7 +27,7 @@ This project implements a **Visual Question Answering (VQA)** system using:
 
 ---
 
-## ⚙ Implementation Notes  
+##  Implementation Notes  
 ### Dataset Constraints  
 Due to computational limitations (GPU memory), we used:  
 - **20%** of COCO-VQA v2.0 training data  
@@ -45,14 +45,14 @@ Due to computational limitations (GPU memory), we used:
 
 
 
-## 📈 Future Improvements  
+##  Future Improvements  
 - [ ] **Scale training**: Use cloud GPUs (Colab/AWS) for full-dataset runs  
 - [ ] **Advanced fusion**: Replace late fusion with co-attention (e.g., [MCAN](https://arxiv.org/abs/1906.10770))  
 - [ ] **Deployment**: Build a Gradio/Streamlit demo  
 
 ---
 
-## 📜 Citation  
+##  Citation  
 ```bibtex
 @misc{vqa_project_2024,
   title = {Resource-Constrained VQA with ResNet50+BERT},
