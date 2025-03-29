@@ -16,12 +16,12 @@ This project implements a **Visual Question Answering (VQA)** system using:
 
 ##  Project Structure  
 ```
-├── models/                  # Pretrained model weights (.pth/.ckpt)
-├── outputs/                 # Training logs, metrics, and visualizations
-├── test_images/             # Sample images for inference testing
-├── notebooks/               # Jupyter notebooks (EDA, prototyping)
-├── Presentations/           # Slide decks (PDF/PPT)
-├── Report/                  # LaTeX source for the final report
+├── models/                  
+├── outputs/                 
+├── test_images/            
+├── notebooks/               
+├── Presentations/           
+├── Report/                  
                    
 ```
 
@@ -30,7 +30,7 @@ This project implements a **Visual Question Answering (VQA)** system using:
 ##  Implementation Notes  
 ### Dataset Constraints  
 Due to computational limitations (GPU memory), we used:  
-- **20%** of COCO-VQA v2.0 training data  
+- **20%** of VQA v2.0 training data  
 - Batch size **16** (vs. typical 32-64)  
 - **5 epochs** for vision/text components  
 
