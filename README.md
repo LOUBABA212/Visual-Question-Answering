@@ -10,7 +10,7 @@ This project implements a **Visual Question Answering (VQA)** system using:
 - **Fusion**: Late concatenation + fully connected layers for answer prediction  
 
 **Full repository (models, datasets, outputs)** is available on Google Drive:  
-👉 [Download Full Project Folder](https://drive.google.com/your-link-here)  
+👉 [Download Full Project Folder](https://drive.google.com/drive/folders/1F0m-6e1kyNcWky9k-zBfJqGwcM9-Xvz5?usp=drive_link)  
 
 ---
 
